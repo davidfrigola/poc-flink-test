@@ -10,9 +10,9 @@ Simple app with the following specification:
 * Stream application 
 * Reading from Kafka topic
 * Simple logic (add a prefix/suffix?) applied to the stream elements
-* POST the result to :
-** a third-party system (REST service)
-** a Kafka topic
+* POST the result to:
+  * a third party system (REST service)
+  * a Kafka topic
 
 # Goals
 
