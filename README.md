@@ -8,9 +8,11 @@ I'd like to be able to do some unit tests as `Integration` ones, spinning up Fli
 
 Simple app with the following specification:
 * Stream application 
-* Reading from Kafka
+* Reading from Kafka topic
 * Simple logic (add a prefix/suffix?) applied to the stream elements
-* POST the result to a third-party system (REST service)
+* POST the result to :
+** a third-party system (REST service)
+** a Kafka topic
 
 # Goals
 
